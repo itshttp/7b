@@ -67,7 +67,7 @@ def main():
             print("\nAssistant:", response)
             
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred!: {e}")
         return 1
     
     return 0
